@@ -82,38 +82,49 @@ body{
 
 
 .banner-section{
-   display: flex;
+  
+    
+    display: flex;
     max-width: 1250px;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e6e9eb;
+    /* border: 1px solid red; */
     min-height: 400px;
+    border-radius: 10px;
 
 
 }
 
 .text-conteiner{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: 400px;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+   
 
 
 }
 
 .banner-img-conteiner{
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: 400px;
     width: 50%;
+    position: relative;
+
+
 
 }
 .banner-img-conteiner img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
 
 
 }
@@ -151,6 +162,69 @@ body{
     color: black;
     font-size: 20;
     font-weight: 600;
+    margin-right: 5px;
+
+  
+}
+
+.discount{
+
+    width: 90px;
+    height: 90px;
+    background-color: rgb(111, 225, 145) ;
+    display: flex;
+    justify-content: center;
+    color: rgb(60, 73, 73);
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 600;
+    position: absolute;
+    bottom: 65%;
+    left: 75%;
+    font-family: 'Dancing Script', cursive;
+
+
+
 }
 
 
+/* products section start */
+
+.products-section{   
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+.grid-conteiner{
+    min-width:400px ;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+}
+
+.singel-products{
+
+    /* border: 1px solid black; */
+    /* width: 30%; */
+    padding: 2%;
+    background-color:  #e6e9eb;;
+
+}
+
+.singel-products >img{
+
+    width: 70%;
+    padding-left: 30px;
+    
+
+
+}
+.product-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

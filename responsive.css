@@ -19,6 +19,7 @@
     
     .banner-section{
         flex-direction: column;
+        margin-top: 30px;
     }
   
     .text-conteiner{
@@ -35,7 +36,9 @@
     
     }
 
-
+    .grid-conteiner{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -58,6 +61,7 @@
 
     .banner-section{
         flex-direction: column;
+        margin-top: 30px;
     }
     .text-conteiner{
         
@@ -71,6 +75,10 @@
 
         width: 100%;
     
+    }
+
+    .grid-conteiner{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
