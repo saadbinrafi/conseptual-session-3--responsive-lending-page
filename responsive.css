@@ -39,6 +39,20 @@
     .grid-conteiner{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footer-section{
+        margin: 10px auto;
+        height: 40px;
+    }
+    .footer-pera{
+        padding: 15px;
+    }
+
+    .rafi{
+        font-size: 20px;
+
+    }
+
 }
 
 
@@ -80,6 +94,21 @@
     .grid-conteiner{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footer-section{
+        margin: 20px auto;
+        height: 60px;
+    }
+
+    .footer-pera{
+        padding: 20px;
+    }
+
+    .rafi{
+        font-size: 25px;
+
+    }
+
 
 
 }
