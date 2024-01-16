@@ -274,8 +274,10 @@ body{
  .footer-section{
     background-color:#9366e0; 
     max-width: 1250px;
-    margin: 30px auto;
-    height: 100px;
+    margin: 20px auto;
+    
+    height: 150px;
+    border-radius: 10px;
 
  }
 
