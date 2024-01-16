@@ -1,5 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
 body{
     font-family: 'Poppins', sans-serif;;
 }
+
+.header{
+    background-color: #9366e0;
+}
+
+.header-section{
+    display: flex;
+    max-width: 1200px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+}
+
+.nav-conteiner{
+    /* border: 1px solid red; */
+    min-height: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+
+    
+}
+.nav-conteiner img{
+    width: 90px;
+}
+
+.nav-conteiner p{
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.spacial{
+    color: rgb(111, 225, 145);
+}
+
+.item-conteiner{
+    /* border: 1px solid yellow; */
+    min-height: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-conteiner a {
+
+    text-decoration: none;
+    color: azure;
+    font-weight: 600;
+
+
+
+}
+
+.item-conteiner a.button {
+    padding: 10px 20px;
+    background-color: rgb(111, 225, 145) ;
+    border-radius: 5px;
+    color: black;
+
+    
+}
+/* compleate a nevigation ber  */
+
+/* compleate a nevigation ber  */
+
+
+.banner-section{
+   display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 1px solid red;
+    min-height: 400px;
+
+
+}
+
+.text-conteiner{
+    border: 1px solid black;
+    min-height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.banner-img-conteiner{
+
+    border: 1px solid black;
+    min-height: 400px;
+    width: 50%;
+
+}
+.banner-img-conteiner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+
+
+.banner-heaf{
+    background:linear-gradient(to-bottom,red,green,blue );
+    background-clip: text;
+    color: transparent;
+    color: rgb(112, 87, 87);
+    font-size: 45px;
+}
+#cullections{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;   
+    font-weight: 600;
+    text-align: center;
+}
+
+.fa-brands{
+    font-size: 45px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    padding: 10px 5px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: rgb(111, 225, 145) ;
+    border-radius: 5px;
+    color: black;
+    font-size: 20;
+    font-weight: 600;
+}
+
+
